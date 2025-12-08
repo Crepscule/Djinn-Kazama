@@ -81,7 +81,7 @@ if not isDungeon() then
 	c.LeftLowerLeg.Color = Color3.fromRGB(248, 248, 248)
 
 	
-	c.Ignore.Hoodie.Color = Enum.Material.Granite
+	c.Ignore.Hoodie.Material = Enum.Material.Granite
 	c.UpperTorso.Material = Enum.Material.Granite
 	c.RightUpperArm.Material = Enum.Material.Granite
 	c.LeftUpperArm.Material = Enum.Material.Granite
