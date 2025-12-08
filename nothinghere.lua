@@ -71,20 +71,20 @@ if not isDungeon() then
 	c.Ignore.Jean_PantR.Color = Color3.fromRGB(248, 248, 248)
 	
 	
-	c.UpperRightArm.Color = Color3.fromRGB(17,17,17)
+	c.RightUpperArm.Color = Color3.fromRGB(17,17,17)
 	c.LowerTorso.Color = Color3.fromRGB(17,17,17)
 	c.UpperTorso.Color = Color3.fromRGB(17,17,17)
-	c.UpperLeftArm.Color = Color3.fromRGB(17,17,17)
-	c.UpperRightLeg.Color = Color3.fromRGB(248, 248, 248)
-	c.UpperLeftLeg.Color = Color3.fromRGB(248, 248, 248)
-	c.LowerRightLeg.Color = Color3.fromRGB(248, 248, 248)
-	c.LowerLeftLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.LeftUpperArm.Color = Color3.fromRGB(17,17,17)
+	c.RightUpperLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.LeftUpperLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.RightLowerLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.LeftLowerLeg.Color = Color3.fromRGB(248, 248, 248)
 
 	
 	c.Ignore.Hoodie.Color = Enum.Material.Granite
 	c.UpperTorso.Material = Enum.Material.Granite
-	c.UpperRightArm.Material = Enum.Material.Granite
-	c.UpperLefrArm.Material = Enum.Material.Granite
+	c.RightUpperArm.Material = Enum.Material.Granite
+	c.LeftUpperArm.Material = Enum.Material.Granite
 
 	local hat = c.Ignore.Hat:Clone()
 	hat.Mesh.MeshId = "rbxassetid://4947321729"
