@@ -89,7 +89,7 @@ if not isDungeon() then
 		
 		local r1 = Instance.new("StringValue")
 		r1.Parent = d1
-		r1.Name = "Dialog"
+		r1.Name = "Dialog"  -- Caitlin uses Dialog, not FDialog
 		r1.Value = [[Wait... aren't you that "Ashura" fighter everyone's whispering about? Go pick a real fight with <font color="#FF00AA">Vulcan</font> instead of beating up random people. I hear he's actually worth your time. Parker says you're looking for strong opponents anyway.]]
 		
 		-- Option 2: "This city's too soft."
@@ -100,7 +100,7 @@ if not isDungeon() then
 		
 		local r2 = Instance.new("StringValue")
 		r2.Parent = d2
-		r2.Name = "Dialog"
+		r2.Name = "Dialog"  -- Caitlin uses Dialog
 		r2.Value = [[I know, right? The mayor doesn't even do anything about the real problems. Instead of stopping crime, he watches highlight reels of street fights online. He should be fired. Parker says you'd probably enjoy watching those too - all violence, no substance.]]
 		
 		-- Option 3: "You know Parker?"
@@ -111,7 +111,7 @@ if not isDungeon() then
 		
 		local r3 = Instance.new("StringValue")
 		r3.Parent = d3
-		r3.Name = "Dialog"
+		r3.Name = "Dialog"  -- Caitlin uses Dialog
 		r3.Value = [[<font color="#90EE90">Old man Parker?</font> Yeah, he comes around sometimes. Always complaining about his sore throat. Says it's from "talking too much with reckless fighters." I'm guessing that's you. He's got some wild stories about your fights though.]]
 		
 		-- Sub-options for Dialog3
@@ -122,7 +122,7 @@ if not isDungeon() then
 		
 		local r3_1 = Instance.new("StringValue")
 		r3_1.Parent = d3_1
-		r3_1.Name = "Dialog"
+		r3_1.Name = "Dialog"  -- Caitlin uses Dialog
 		r3_1.Value = [[Says you fight like you're possessed. Something about "demons in the blood" or whatever. <font color="#90EE90">Parker</font> claims you broke his arm once and just walked away like nothing happened. Is that true?]]
 		
 		-- Sub-sub-options
@@ -133,7 +133,7 @@ if not isDungeon() then
 		
 		local r3_1_1 = Instance.new("StringValue")
 		r3_1_1.Parent = d3_1_1
-		r3_1_1.Name = "Dialog"
+		r3_1_1.Name = "Dialog"  -- Caitlin uses Dialog
 		r3_1_1.Value = [[Figures. <font color="#90EE90">Parker</font> does have a habit of picking fights he can't win. Still comes back for more though. You two are kind of alike in that way.]]
 		
 		local d3_1_2 = Instance.new("StringValue")
@@ -143,7 +143,7 @@ if not isDungeon() then
 		
 		local r3_1_2 = Instance.new("StringValue")
 		r3_1_2.Parent = d3_1_2
-		r3_1_2.Name = "Dialog"
+		r3_1_2.Name = "Dialog"  -- Caitlin uses Dialog
 		r3_1_2.Value = [[<font color="#90EE90">Parker</font> said the same thing! Even with a broken arm! You fighters are all messed up in the head, you know that?]]
 	end
 	
@@ -163,7 +163,7 @@ if not isDungeon() then
 		
 		local r1 = Instance.new("StringValue")
 		r1.Parent = d1
-		r1.Name = "Dialog"
+		r1.Name = "Dialog"  -- Bill uses Dialog
 		r1.Value = [[Yeah... those were some legendary fights. You made a lot of memories for people, you know. <font color="#90EE90">Parker</font> still has the scars to prove it.]]
 		
 		-- Option 2: "You just stand here all day?"
@@ -174,7 +174,7 @@ if not isDungeon() then
 		
 		local r2 = Instance.new("StringValue")
 		r2.Parent = d2
-		r2.Name = "Dialog"
+		r2.Name = "Dialog"  -- Bill uses Dialog
 		r2.Value = [[What? No! I'm... observing! Studying fighters like you! Besides, I have important things to do. Like uh... analyzing fight techniques... Yeah. <font color="#90EE90">Parker</font> says I should mind my own business though.]]
 		
 		-- Option 3: "Parker talks too much."
@@ -185,7 +185,7 @@ if not isDungeon() then
 		
 		local r3 = Instance.new("StringValue")
 		r3.Parent = d3
-		r3.Name = "Dialog"
+		r3.Name = "Dialog"  -- Bill uses Dialog
 		r3.Value = [[<font color="#90EE90">He does, doesn't he?</font> Always going on about "the old days" and "real fighters." But he's got stories about you that would make anyone's hair stand on end. Something about you fighting with broken ribs?]]
 		
 		-- Sub-option
@@ -196,7 +196,7 @@ if not isDungeon() then
 		
 		local r3_1 = Instance.new("StringValue")
 		r3_1.Parent = d3_1
-		r3_1.Name = "Dialog"
+		r3_1.Name = "Dialog"  -- Bill uses Dialog
 		r3_1.Value = [[That's what <font color="#90EE90">Parker</font> said you'd say! Word for word! You two really are cut from the same cloth.]]
 	end
 	
@@ -216,7 +216,7 @@ if not isDungeon() then
 		
 		local r1 = Instance.new("StringValue")
 		r1.Parent = d1
-		r1.Name = "Dialog"
+		r1.Name = "Dialog"  -- James uses Dialog
 		r1.Value = [[Someone needs to teach them a lesson. I REALLY hate that tower. It's an insult to everyone who lives here. <font color="#90EE90">Parker</font> says you're the type to climb it just to punch the guy at the top.]]
 		
 		-- Sub-options for Option 1
@@ -227,7 +227,7 @@ if not isDungeon() then
 		
 		local r1_1 = Instance.new("StringValue")
 		r1_1.Parent = d1_1
-		r1_1.Name = "Dialog"
+		r1_1.Name = "Dialog"  -- James uses Dialog
 		r1_1.Value = [[That skyscraper is owned by some corporate bigshot named Derek. Thinks he's untouchable because he's got money and muscle. He probably built that tower just to look down on everyone... literally. <font color="#90EE90">Parker</font> says Derek has private security that could give even you a challenge.]]
 		
 		local d1_2 = Instance.new("StringValue")
@@ -237,7 +237,7 @@ if not isDungeon() then
 		
 		local r1_2 = Instance.new("StringValue")
 		r1_2.Parent = d1_2
-		r1_2.Name = "Dialog"
+		r1_2.Name = "Dialog"  -- James uses Dialog
 		r1_2.Value = [[Crazy how the mayor allowed this... Probably got paid off. <font color="#90EE90">Parker</font> thinks Derek's planning something big. Something that needs a lot of... private security.]]
 		
 		-- Option 2: "Maybe I am the Ashura."
@@ -248,7 +248,7 @@ if not isDungeon() then
 		
 		local r2 = Instance.new("StringValue")
 		r2.Parent = d2
-		r2.Name = "Dialog"
+		r2.Name = "Dialog"  -- James uses Dialog
 		r2.Value = [[Then why don't you go in there and remind them that money doesn't make you strong? Show them what real strength looks like! <font color="#90EE90">Parker</font> bets you wouldn't last five minutes against their top guys though.]]
 		
 		-- Sub-options for Option 2
@@ -259,7 +259,7 @@ if not isDungeon() then
 		
 		local r2_1 = Instance.new("StringValue")
 		r2_1.Parent = d2_1
-		r2_1.Name = "Dialog"
+		r2_1.Name = "Dialog"  -- James uses Dialog
 		r2_1.Value = [[You should make it soon. That tower ruins the whole city's vibe. Just looking at it makes me want to punch something. <font color="#90EE90">Parker</font> says you're probably waiting for the right moment... or the right opponent.]]
 		
 		local d2_2 = Instance.new("StringValue")
@@ -269,38 +269,48 @@ if not isDungeon() then
 		
 		local r2_2 = Instance.new("StringValue")
 		r2_2.Parent = d2_2
-		r2_2.Name = "Dialog"
+		r2_2.Name = "Dialog"  -- James uses Dialog
 		r2_2.Value = [[Heh. <font color="#90EE90">Old man's</font> got nothing better to do than gossip about fighters. But he's usually right about these things. If he says Derek's worth your time... well, you might want to listen.]]
 	end
 	
-	-- Parker's Dialogue
+	-- Parker's Dialogue (EXCLUSIVELY uses FDialog for responses)
 	if not specDialogues.Parker then
 		specDialogues.Parker = true
 		local parkerDialogue = workspace.Map.MiniQuests["Parker"].Dialogue
-		parkerDialogue.Dialog.Value = [[<font color="#90EE90">Back again, Ohma? Caitlin's been asking about you. Says you look like you're itching for a fight.</font>]]
 		
-		clearExistingResponses(parkerDialogue.Dialog)
+		-- Check if FDialog exists, if not create it
+		if not parkerDialogue:FindFirstChild("FDialog") then
+			local fDialog = Instance.new("StringValue")
+			fDialog.Parent = parkerDialogue
+			fDialog.Name = "FDialog"
+		end
+		
+		-- Set the initial FDialog value
+		parkerDialogue.FDialog.Value = [[<font color="#90EE90">Back again, Ohma? Caitlin's been asking about you. Says you look like you're itching for a fight.]]
+		
+		-- Clear any existing responses
+		clearExistingResponses(parkerDialogue.FDialog)
 		
 		-- Option 1: "You looking for a rematch?"
 		local d1 = Instance.new("StringValue")
-		d1.Parent = parkerDialogue.Dialog
+		d1.Parent = parkerDialogue.FDialog
 		d1.Value = "You looking for a rematch?"
 		d1.Name = "Dialog1"
 		
 		local r1 = Instance.new("StringValue")
 		r1.Parent = d1
-		r1.Name = "Dialog"
-		r1.Value = [[<font color="#90EE90">Some things never change. Still as reckless as ever. My arm's still sore from last time, you know.</font>]]
+		r1.Name = "FDialog"  -- Parker uses FDialog for responses
+		r1.Value = [[<font color="#90EE90">Some things never change. Still as reckless as ever. My arm's still sore from last time, you know.]]
 		
 		-- Option 2: "What's going on?"
 		local d2 = Instance.new("StringValue")
-		d2.Parent = parkerDialogue.Dialog
+		d2.Parent = parkerDialogue.FDialog
 		d2.Value = "What's going on?"
 		d2.Name = "Dialog2"
 		
 		local r2 = Instance.new("StringValue")
 		r2.Parent = d2
-		r2.Name = "Dialog"
+		r2.Name = "Dialog"  -- This response continues conversation
 		r2.Value = [[<font color="#90EE90">Same old. Throat's still bothering me from our last... conversation. Caitlin thinks I should see a doctor. Says I talk too much for my own good.]]
 		
 		-- Sub-options for Option 2
@@ -311,7 +321,7 @@ if not isDungeon() then
 		
 		local r2_1 = Instance.new("StringValue")
 		r2_1.Parent = d2_1
-		r2_1.Name = "Dialog"
+		r2_1.Name = "FDialog"  -- Parker uses FDialog (triggers fight)
 		r2_1.Value = [[<font color="#90EE90">...You're really trying to put me back in the hospital. I'm retired from that life, remember? Caitlin would kill me if she found out I was fighting again.]]
 		
 		local d2_2 = Instance.new("StringValue")
@@ -321,30 +331,30 @@ if not isDungeon() then
 		
 		local r2_2 = Instance.new("StringValue")
 		r2_2.Parent = d2_2
-		r2_2.Name = "Dialog"
+		r2_2.Name = "Dialog"  -- Continues conversation
 		r2_2.Value = [[<font color="#90EE90">You too. Try not to get yourself killed out there. Caitlin's worried about you, you know. Thinks you're going to pick a fight you can't win.]]
 		
 		-- Option 3: "Nothing. Later."
 		local d3 = Instance.new("StringValue")
-		d3.Parent = parkerDialogue.Dialog
+		d3.Parent = parkerDialogue.FDialog
 		d3.Value = "Nothing. Later."
 		d3.Name = "Dialog3"
 		
 		local r3 = Instance.new("StringValue")
 		r3.Parent = d3
-		r3.Name = "Dialog"
-		r3.Value = [[<font color="#90EE90">*cough* ...Stay alive, kid. And tell Caitlin I said hi. </font>]]
+		r3.Name = "Dialog"  -- Continues conversation
+		r3.Value = [[<font color="#90EE90">*cough* ...Stay alive, kid. And tell Caitlin I said hi.]]
 		
 		-- Option 4: "Caitlin talks about you."
 		local d4 = Instance.new("StringValue")
-		d4.Parent = parkerDialogue.Dialog
+		d4.Parent = parkerDialogue.FDialog
 		d4.Value = "Caitlin talks about you."
 		d4.Name = "Dialog4"
 		
 		local r4 = Instance.new("StringValue")
 		r4.Parent = d4
-		r4.Name = "Dialog"
-		r4.Value = [[<font color="#90EE90">Does she now? Probably telling you about all my old injuries. That girl worries too much. She thinks I'm going to get myself killed one of these days.</font>]]
+		r4.Name = "Dialog"  -- Continues conversation
+		r4.Value = [[<font color="#90EE90">Does she now? Probably telling you about all my old injuries. That girl worries too much. She thinks I'm going to get myself killed one of these days.]]
 		
 		-- Sub-options for Option 4
 		local d4_1 = Instance.new("StringValue")
@@ -354,8 +364,8 @@ if not isDungeon() then
 		
 		local r4_1 = Instance.new("StringValue")
 		r4_1.Parent = d4_1
-		r4_1.Name = "Dialog"
-		r4_1.Value = [[<font color="#90EE90">Pot calling the kettle black. You're going to get yourself killed long before I do. At least I know when to walk away.</font>]]
+		r4_1.Name = "FDialog"  -- Parker uses FDialog (triggers fight)
+		r4_1.Value = [[<font color="#90EE90">Pot calling the kettle black. You're going to get yourself killed long before I do. At least I know when to walk away.]]
 		
 		local d4_2 = Instance.new("StringValue")
 		d4_2.Parent = r4
@@ -364,8 +374,8 @@ if not isDungeon() then
 		
 		local r4_2 = Instance.new("StringValue")
 		r4_2.Parent = d4_2
-		r4_2.Name = "Dialog"
-		r4_2.Value = [[<font color="#90EE90">Good kid. Too good for this city. She shouldn't be worrying about old men like me. You either, for that matter.</font>]]
+		r4_2.Name = "Dialog"  -- Continues conversation
+		r4_2.Value = [[<font color="#90EE90">Good kid. Too good for this city. She shouldn't be worrying about old men like me. You either, for that matter.]]
 	end	
 end
 
