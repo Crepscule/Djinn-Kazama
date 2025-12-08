@@ -1,4 +1,9 @@
 -- // test
+
+local function isDungeon()
+	return game.ReplicatedStorage.Dungeon.Value
+end
+
 local specDialogues = {
 	Parker = false;
 	Bill = false;
