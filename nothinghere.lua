@@ -85,6 +85,14 @@ if not isDungeon() then
 	c.UpperTorso.Material = Enum.Material.Granite
 	c.UpperRightArm.Material = Enum.Material.Granite
 	c.UpperLefrArm.Material = Enum.Material.Granite
+
+	local hat = c.Ignore.Hat:Clone()
+	hat.Mesh.MeshId = "rbxassetid://4947321729"
+	hat.Mesh.TextureId = "rbxassetid://5592212623"
+	hat.Parent = c.Ignore.Parent
+	hat.Mesh.Offset = Vector3.new(0, 0, -0.20000000298023224)
+	hat.Mesh.VertexColor = Vector3.new(1,1,1)
+	
 	-- Dialogues for regular NPCs
 	workspace.Map.MiniQuests["Helen"].Dialogue.Dialog.Value = [[Thinking about moving to Bloxxer City... But those crime rates are so high, and we got the <font color="#FFFFFF">"Dragon of Steel" </font> protecting us here, but I heard he went back to Rajad, to reconnect with his old master. Though I hear there's some fighter called the <font color="#FF2121">"Ashura"</font>who's even scarier... Some say he can shatter concrete with his bare hands.]]
 	
