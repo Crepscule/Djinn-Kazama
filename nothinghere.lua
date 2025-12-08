@@ -60,6 +60,31 @@ local function clearExistingResponses(dialogObj)
 end
 
 if not isDungeon() then
+	local c = workspace.Map.MiniQuests["Caitlin"]
+	-- NPC Model Changes
+	c.Ignore.Hat.Mesh.Scale = Vector3.new(1,1,1)
+	c.Ignore.Hoodie.Color = Color3.fromRGB(47,47,47)
+	c.Ignore.Hoodie_CuffL.Color = Color3.fromRGB(47,47,47)
+	c.Ignore.Hoodie_CuffR.Color = Color3.fromRGB(47,47,47)
+	c.Ignore.Hoodie_Low.Color = Color3.fromRGB(47,47,47) 
+	c.Ignore.Jean_PantL.Color = Color3.fromRGB(248, 248, 248)
+	c.Ignore.Jean_PantR.Color = Color3.fromRGB(248, 248, 248)
+	
+	
+	c.UpperRightArm.Color = Color3.fromRGB(17,17,17)
+	c.LowerTorso.Color = Color3.fromRGB(17,17,17)
+	c.UpperTorso.Color = Color3.fromRGB(17,17,17)
+	c.UpperLeftArm.Color = Color3.fromRGB(17,17,17)
+	c.UpperRightLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.UpperLeftLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.LowerRightLeg.Color = Color3.fromRGB(248, 248, 248)
+	c.LowerLeftLeg.Color = Color3.fromRGB(248, 248, 248)
+
+	
+	c.Ignore.Hoodie.Color = Enum.Material.Granite
+	c.UpperTorso.Material = Enum.Material.Granite
+	c.UpperRightArm.Material = Enum.Material.Granite
+	c.UpperLefrArm.Material = Enum.Material.Granite
 	-- Dialogues for regular NPCs
 	workspace.Map.MiniQuests["Helen"].Dialogue.Dialog.Value = [[Thinking about moving to Bloxxer City... But those crime rates are so high, and we got the <font color="#FFFFFF">"Dragon of Steel" </font> protecting us here, but I heard he went back to Rajad, to reconnect with his old master. Though I hear there's some fighter called the <font color="#FF2121">"Ashura"</font>who's even scarier... Some say he can shatter concrete with his bare hands.]]
 	
