@@ -75,7 +75,7 @@ if not isDungeon() then
 	-- Caitlin's Dialogue
 	if not specDialogues.Caitlin then
 		specDialogues.Caitlin = true
-		local caitlinDialogue </font>kspace.Map.MiniQuests["Caitlin"].Dialogue
+		local caitlinDialogue = workspace.Map.MiniQuests["Caitlin"].Dialogue
 		caitlinDialogue.Dialog.Value = [[There sure are a lot of punks in this city looking for a fight. You've got that hungry look in your eyes. What, you want to throw down too?]]
 		
 		-- Clear any existing responses
@@ -270,7 +270,7 @@ if not isDungeon() then
 		local r2_2 = Instance.new("StringValue")
 		r2_2.Parent = d2_2
 		r2_2.Name = "Dialog"
-		r2_2.Value = [[Heh. <font color="#90EE90">Old man's</font> got nothing better to do than gossip about fighters. But he's usually right about these things. If he says Derek's worth your time... well, you might want to listen.</font>]]
+		r2_2.Value = [[Heh. <font color="#90EE90">Old man's</font> got nothing better to do than gossip about fighters. But he's usually right about these things. If he says Derek's worth your time... well, you might want to listen.]]
 	end
 	
 	-- Parker's Dialogue
