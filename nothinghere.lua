@@ -11,6 +11,26 @@ local specDialogues = {
 	Caitlin = false;
 }
 
+local function Notify(Text,Sound,Color,Fonts) --text function, sounds: tp, buzz, Gong, HeatDepleted
+    local Text1 = string.upper(Text)
+    if Sound then
+         pgui.Notify:Fire(Text,Sound)
+    else
+        pgui.Notify:Fire(Text)
+    end
+    for i,v in pairs(pgui.NotifyUI.Awards:GetChildren()) do
+        if v.Name == "XPEx" and v.Text == Text1 then
+	       v.Text = Text
+             if Color then
+		      v.TextColor3 = Color
+             end
+		  if Fonts then
+		      v.Font = Enum.Font[Fonts]
+	       end
+        end
+    end
+end
+
 if not isDungeon() then
 	-- Dialogues
 	workspace.Map.MiniQuests["Helen"].Dialogue.Dialog.Value = [[Thinking about moving to Bloxxer City... But those crime rates are so high, and we got the "Dragon of Steel" protecting us here. Though I hear there's some fighter called the "Ashura" who's even scarier... Some say he can shatter concrete with his bare hands.]]
@@ -285,3 +305,4 @@ if not isDungeon() then
 		r4_2.Value = [[<font color="#90EE90">Good kid. Too good for this city. She shouldn't be worrying about old men like me. You either, for that matter.]]
 	end	
 end    
+Notify("Complete!")
