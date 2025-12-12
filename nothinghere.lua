@@ -276,7 +276,7 @@ if not isDungeon() then
 		-- Option 2: "Maybe I am the Ashura."
 		local d2 = Instance.new("StringValue")
 		d2.Parent = jamesDialogue.Dialog
-		d2.Value = [[Maybe I am the <font color="#FF2121"Ashura.</font>]]
+		d2.Value = [[Maybe I am the <font color="#FF2121">Ashura.</font>]]
 		d2.Name = "Dialog2"
 		
 		local r2 = Instance.new("StringValue")
